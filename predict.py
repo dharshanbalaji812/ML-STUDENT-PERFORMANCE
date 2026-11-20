@@ -11,7 +11,7 @@ new_data['predicted_result'] = predictions
 print("Predicted Student Results:")
 print(new_data)
 new_data.to_csv(
-    'Dataset/student_predictions.csv'
+    'Dataset/student_predictions.csv',
     index=False
-)
+) 
 print("\nPredictions saved successfully!")

@@ -16,7 +16,7 @@ model = joblib.load("models/student_model.pkl")
 @app.get("/")
 def home():
     return {
-        "message": "Student Performance Prediction API Running"
+        "message":"Welcome to AI Student Performance Prediction System! Use the /predict endpoint to get predictions based on study hours, attendance, and previous marks."
     }
 
 @app.post("/predict")
